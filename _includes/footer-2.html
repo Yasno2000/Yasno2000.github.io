@@ -1,0 +1,15 @@
+<footer class="bd-footer bg-dark footer-dark mt-4">
+    <div class="container-fluid p-2 p-md-4 footer-text">
+              <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        {% for network in site.social %}
+                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+              <p><p>Copyright &copy; 2020 paiho.ru</p></p>
+        <div class="footer_counters">
+    </div>
+        </div>
+  </footer>
